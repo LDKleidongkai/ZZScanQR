@@ -1,0 +1,6 @@
+framework module ZZScanQR {
+  umbrella header "ZZScanQR-umbrella.h"
+
+  export *
+  module * { export * }
+}
