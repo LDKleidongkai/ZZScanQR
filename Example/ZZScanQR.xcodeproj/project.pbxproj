@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		813290A4ABA77C77BA52182F /* Pods_ZZScanQR_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC6C4311B4799D07C18080F /* Pods_ZZScanQR_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EA119DC31DF6ACC700AD5A7E /* ZZQRGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA119DC01DF6ACC700AD5A7E /* ZZQRGenerator.m */; };
+		EA119DC41DF6ACC700AD5A7E /* ZZScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA119DC21DF6ACC700AD5A7E /* ZZScanView.m */; };
 		F3DF5463520FCC105907C74E /* Pods_ZZScanQR_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE544860E21D5A5542C52F1D /* Pods_ZZScanQR_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,10 @@
 		B6DE9F52AAC71B7E9A9A6907 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C28211EF2AE9B9C3E4BF39E1 /* Pods-ZZScanQR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZScanQR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZScanQR_Tests/Pods-ZZScanQR_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C624975C7AC61A77373DF41A /* Pods-ZZScanQR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZScanQR_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZScanQR_Example/Pods-ZZScanQR_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA119DBF1DF6ACC700AD5A7E /* ZZQRGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZQRGenerator.h; sourceTree = "<group>"; };
+		EA119DC01DF6ACC700AD5A7E /* ZZQRGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZQRGenerator.m; sourceTree = "<group>"; };
+		EA119DC11DF6ACC700AD5A7E /* ZZScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZScanView.h; sourceTree = "<group>"; };
+		EA119DC21DF6ACC700AD5A7E /* ZZScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZScanView.m; sourceTree = "<group>"; };
 		FDC6C4311B4799D07C18080F /* Pods_ZZScanQR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZScanQR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE544860E21D5A5542C52F1D /* Pods_ZZScanQR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZScanQR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +149,7 @@
 			children = (
 				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
+				EA119DBE1DF6ACC700AD5A7E /* ZZScanQR */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZZViewController.h */,
 				6003F5A6195388D20070C39A /* ZZViewController.m */,
@@ -191,6 +198,17 @@
 				73D613274D5CDFF672DFA283 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		EA119DBE1DF6ACC700AD5A7E /* ZZScanQR */ = {
+			isa = PBXGroup;
+			children = (
+				EA119DBF1DF6ACC700AD5A7E /* ZZQRGenerator.h */,
+				EA119DC01DF6ACC700AD5A7E /* ZZQRGenerator.m */,
+				EA119DC11DF6ACC700AD5A7E /* ZZScanView.h */,
+				EA119DC21DF6ACC700AD5A7E /* ZZScanView.m */,
+			);
+			path = ZZScanQR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +409,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA119DC41DF6ACC700AD5A7E /* ZZScanView.m in Sources */,
+				EA119DC31DF6ACC700AD5A7E /* ZZQRGenerator.m in Sources */,
 				6003F59E195388D20070C39A /* ZZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "ZZViewController.h"
-
+#import "ZZQRGenerator.h"
 @interface ZZViewController ()
 
 @end
@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"");
+    NSLog(@"123");
 }
 
 - (void)didReceiveMemoryWarning
