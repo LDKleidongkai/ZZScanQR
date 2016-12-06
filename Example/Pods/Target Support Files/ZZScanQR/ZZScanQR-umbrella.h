@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ZZQRGenerator.h"
+#import "ZZScanView.h"
 
 FOUNDATION_EXPORT double ZZScanQRVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZZScanQRVersionString[];

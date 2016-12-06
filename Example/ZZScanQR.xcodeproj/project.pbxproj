@@ -20,10 +20,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		813290A4ABA77C77BA52182F /* Pods_ZZScanQR_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC6C4311B4799D07C18080F /* Pods_ZZScanQR_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EA119DC31DF6ACC700AD5A7E /* ZZQRGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA119DC01DF6ACC700AD5A7E /* ZZQRGenerator.m */; };
-		EA119DC41DF6ACC700AD5A7E /* ZZScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA119DC21DF6ACC700AD5A7E /* ZZScanView.m */; };
+		EA119DC61DF6B1FB00AD5A7E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA119DC51DF6B1FB00AD5A7E /* Launch Screen.storyboard */; };
 		F3DF5463520FCC105907C74E /* Pods_ZZScanQR_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE544860E21D5A5542C52F1D /* Pods_ZZScanQR_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,14 +59,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		73D613274D5CDFF672DFA283 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		95FF67D8DCAD64DA873A2A22 /* Pods-ZZScanQR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZScanQR_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZScanQR_Tests/Pods-ZZScanQR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6DE9F52AAC71B7E9A9A6907 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C28211EF2AE9B9C3E4BF39E1 /* Pods-ZZScanQR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZScanQR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZScanQR_Tests/Pods-ZZScanQR_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C624975C7AC61A77373DF41A /* Pods-ZZScanQR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZScanQR_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZScanQR_Example/Pods-ZZScanQR_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA119DBF1DF6ACC700AD5A7E /* ZZQRGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZQRGenerator.h; sourceTree = "<group>"; };
-		EA119DC01DF6ACC700AD5A7E /* ZZQRGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZQRGenerator.m; sourceTree = "<group>"; };
-		EA119DC11DF6ACC700AD5A7E /* ZZScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZScanView.h; sourceTree = "<group>"; };
-		EA119DC21DF6ACC700AD5A7E /* ZZScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZScanView.m; sourceTree = "<group>"; };
+		EA119DC51DF6B1FB00AD5A7E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FDC6C4311B4799D07C18080F /* Pods_ZZScanQR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZScanQR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE544860E21D5A5542C52F1D /* Pods_ZZScanQR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZScanQR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				813290A4ABA77C77BA52182F /* Pods_ZZScanQR_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +96,6 @@
 			children = (
 				243025664E90D0FB3E332138 /* Pods-ZZScanQR_Example.debug.xcconfig */,
 				C624975C7AC61A77373DF41A /* Pods-ZZScanQR_Example.release.xcconfig */,
-				95FF67D8DCAD64DA873A2A22 /* Pods-ZZScanQR_Tests.debug.xcconfig */,
-				C28211EF2AE9B9C3E4BF39E1 /* Pods-ZZScanQR_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -149,7 +139,7 @@
 			children = (
 				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
-				EA119DBE1DF6ACC700AD5A7E /* ZZScanQR */,
+				EA119DC51DF6B1FB00AD5A7E /* Launch Screen.storyboard */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZZViewController.h */,
 				6003F5A6195388D20070C39A /* ZZViewController.m */,
@@ -200,17 +190,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		EA119DBE1DF6ACC700AD5A7E /* ZZScanQR */ = {
-			isa = PBXGroup;
-			children = (
-				EA119DBF1DF6ACC700AD5A7E /* ZZQRGenerator.h */,
-				EA119DC01DF6ACC700AD5A7E /* ZZQRGenerator.m */,
-				EA119DC11DF6ACC700AD5A7E /* ZZScanView.h */,
-				EA119DC21DF6ACC700AD5A7E /* ZZScanView.m */,
-			);
-			path = ZZScanQR;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZZScanQR_Tests" */;
 			buildPhases = (
-				4889CB9761268946E99ACD2B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				DA3BC768DF2284CA2E492689 /* [CP] Embed Pods Frameworks */,
-				3118902555CA866B6D04D4F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +273,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				EA119DC61DF6B1FB00AD5A7E /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,21 +304,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZScanQR_Example/Pods-ZZScanQR_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3118902555CA866B6D04D4F1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZScanQR_Tests/Pods-ZZScanQR_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		439962A48CEB7D7D3EF557E0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,21 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZScanQR_Example/Pods-ZZScanQR_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4889CB9761268946E99ACD2B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4BAE7EBBF957D892208C2880 /* [CP] Check Pods Manifest.lock */ = {
@@ -387,21 +334,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DA3BC768DF2284CA2E492689 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZScanQR_Tests/Pods-ZZScanQR_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -409,8 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA119DC41DF6ACC700AD5A7E /* ZZScanView.m in Sources */,
-				EA119DC31DF6ACC700AD5A7E /* ZZQRGenerator.m in Sources */,
 				6003F59E195388D20070C39A /* ZZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -562,7 +492,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95FF67D8DCAD64DA873A2A22 /* Pods-ZZScanQR_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -587,7 +516,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C28211EF2AE9B9C3E4BF39E1 /* Pods-ZZScanQR_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
