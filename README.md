@@ -25,5 +25,7 @@ pod "ZZScanQR"
 Tony, xiaozao2008@msn.cn
 
 ## License
+QR Code Scanner/Generator
 
 ZZScanQR is available under the MIT license. See the LICENSE file for more info.
+
